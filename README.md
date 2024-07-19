@@ -1,8 +1,16 @@
-This repository contains the tmux.conf optimized for Xubuntu 20.04 xfce4-terminal.
+This repository contains my tmux.conf tested for Xubuntu 24.04 LTS bash in xfce4-terminal.
 
-Note: The yank plugin is disabled.
-Copying works with Terminal by highlighting and reading out the 'xsel' buffer.
+Plugins:
 
-**Issues**
+* https://github.com/tmux-plugins/tpm
+* https://github.com/tmux-plugins/tmux-prefix-highlight
+* https://github.com/tmux-plugins/tmux-sensible
+* https://github.com/tmux-plugins/tmux-resurrect
+* https://github.com/thewtex/tmux-mem-cpu-load
 
-* Make this config work for Konsole on Kubuntu 18.04.
+TODOs:
+
+- [x] The yank plugin is disabled.
+- [ ] Copying works with xfce4-terminal by highlighting and reading out the 'xsel' buffer. Really?
+- [ ] Fix color issues with vim (doesn't happen with nvim)
+
